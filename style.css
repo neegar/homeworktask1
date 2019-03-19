@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(49, 46, 46)
+
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+header, .nav, footer{
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+section, aside{
+    background-color: white;
+    float: left;
+    margin-top:10px;
+    width: 475px;
+    height: 200px;
+    margin-bottom: 10px;
+    text-align: center; 
+    }
+section{
+    margin-right:10px;
+}
+footer{
+    clear: both;
+}
+.article{
+    color: white;
+    background-color: goldenrod;
+    margin: 20px 10px 10px 10px;
+    height: 150px;
+ }
+ .h1, .p{
+    background-color: royalblue;
+    margin: 10px 10px 10px 10px;
+    height: 45px;
+    color: black;
+ }
+ .h1{
+     margin-top: 20px;
+ }
